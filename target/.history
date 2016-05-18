@@ -1,0 +1,93 @@
+exit
+help
+tasks
+settings
+inspect compile
+compile
+scalaSource
+compile
+run
+:q
+:quit
+exit
+console
+scalaSource
+scalaTest
+reload
+tasks
+settings
+show gitHeadCommitSha
+show
+show version
+show name
+show compile
+tasks
+definitions
+tasks
+help tasks
+tasks -v
+javaOptions
+reload
+show gitHeadCommitSha
+reload
+projects
+reload
+update
+common/test
+reload
+projects
+common/clearn
+common/clean
+website/clean
+analytics/clean
+website/compile
+reload
+projects
+randomProject/clean
+randomProject/compile
+reload
+:q
+exit
+reload
+name
+version
+inspect tree compile:compile:
+inspect tree compile:compile
+inspect tree common/compile:compile
+inspect tree compile:compile
+inspect tree sources
+show javaSource
+show scalaSource
+inspect tree resource
+inspect tree resources
+reload
+inspect tree resources
+reload
+inspect tree resources
+show resourceDirector
+show resourceDirectory
+show sourceDirectory
+show resourceDirectory
+inspect tree compile:compile
+inspect tree test:sources
+inspect tree test:compile
+inspect tree compile:sources
+show File:baseDirectory
+show sourceDirectory
+show baseDire
+show baseDir
+show baseDirectory
+show sourceDirectory
+show sourceDirectory in Compile
+sourceDirectory in Compile
+inspect tree compile:dependencyClasspath
+show managedDependencies
+show allDependencies
+show ivySbt
+show libraryDependencies
+inspect tree package
+inpsect tree publish
+inspect tree publish
+inspect tree dist
+show dist
+package
