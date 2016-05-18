@@ -16,13 +16,17 @@ makeVersionProperties := {
   Seq(propFile)
 }
 
+libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
+libraryDependencies += "org.pegdown" % "pegdown" % "1.0.2" % "test"
+testOptions in Test += Tests.Argument("html") //specs2 generates html reports
+
 /*lazy val common = ( //new sub-project with it's own settings
 		Project("common",file("common")). //relative to the base dir. Sources should be in common/src/
 		settings(
 				libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
 			)
 	)
-
+ 
 lazy val analytics = ( //new-project 
  Project("analytics", file("analytics"))
  dependsOn(common)

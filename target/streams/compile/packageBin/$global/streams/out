@@ -1,9 +1,0 @@
-[0m[[0minfo[0m] [0mPackaging /Users/Hierro/dev/git/SbtPlayground/target/scala-2.10/sbt-playground_2.10-1.0.jar ...[0m
-[0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	SbtPlayground$.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/Hierro/dev/git/SbtPlayground/target/scala-2.10/classes/SbtPlayground$.class[0m
-[0m[[0mdebug[0m] [0m	SbtPlayground$delayedInit$body.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/Hierro/dev/git/SbtPlayground/target/scala-2.10/classes/SbtPlayground$delayedInit$body.class[0m
-[0m[[0mdebug[0m] [0m	SbtPlayground.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/Hierro/dev/git/SbtPlayground/target/scala-2.10/classes/SbtPlayground.class[0m
-[0m[[0minfo[0m] [0mDone packaging.[0m

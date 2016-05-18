@@ -91,3 +91,67 @@ inspect tree publish
 inspect tree dist
 show dist
 package
+test
+reload
+test
+show scalaTest
+show sourceTest
+show testSource
+show scalaSource
+show scalaTest
+test
+reload
+test
+reload
+test
+testOnly *Logic*
+test
+compile
+test
+compile:test
+test:compile
+reload
+update
+clean
+testOnly LogicSpec
+exit
+test
+update
+reload
+update
+reload
+update
+test
+show keys
+show task
+tasks
+tasks -v
+settings
+settings -v
+configurations
+configuration
+configuration -v
+configuration
+test
+testOnly LogicSpec
+reload
+update
+test
+compile
+clean
+compile
+test
+test:clean
+test:compile
+test
+reload
+update
+test
+reload
+test
+tet
+test
+testOnly LogicSpec
+reload
+update
+test

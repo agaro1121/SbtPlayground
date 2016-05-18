@@ -4,7 +4,7 @@
 		module="sbt-playground_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20160517191351"
+		publication="20160518093843"
 	>
 		<description>
 		SBT Playground
@@ -34,5 +34,7 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.6" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.specs2" name="specs2_2.10" rev="1.14" conf="test->default(compile)"/>
+		<dependency org="org.pegdown" name="pegdown" rev="1.0.2" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
