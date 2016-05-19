@@ -20,6 +20,8 @@ libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
 libraryDependencies += "org.pegdown" % "pegdown" % "1.0.2" % "test"
 testOptions in Test += Tests.Argument("html") //specs2 generates html reports
 
+libraryDependencies += "junit" % "junit" % "4.11" % "test"
+
 /*lazy val common = ( //new sub-project with it's own settings
 		Project("common",file("common")). //relative to the base dir. Sources should be in common/src/
 		settings(
@@ -38,6 +40,15 @@ lazy val website = ( //new sub-project
  dependsOn(common)
  settings()
 )*/
+
+lazy val SbtPlayground = Project("SbtPlayground",file("."))
+	.settings( Defaults.itSettings : _*) //adds integration test
+	.configs(IntegrationTest) //adds integration test //Default to SBT
+	/*
+		By default, this configuration uses the directory src/it, 
+		so it will look for Scala sources in src/it/scala, and resources in src/it/resources. 
+		It compiles classes to target/ it-classes.
+	*/
 
 //can access sub-project tasks like so: common/clean
 
