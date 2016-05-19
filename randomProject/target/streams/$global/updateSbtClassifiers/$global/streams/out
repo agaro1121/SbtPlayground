@@ -724,9 +724,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.11!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
-[debug] :: resolution report :: resolve 3600ms :: artifacts dl 265ms
+[debug] :: resolution report :: resolve 508ms :: artifacts dl 31ms
 [debug] 	report for com.preownedkittens#randomproject$sbt_2.10;1.0 default produced in /Users/anthonygaro/personal_projects/SbtPlayground/randomProject/target/resolution-cache/reports/com.preownedkittens-randomproject$sbt_2.10-default.xml
-[debug] 	resolve done (3600ms resolve - 265ms download)
+[debug] 	resolve done (508ms resolve - 31ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: com.preownedkittens#randomproject$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -1246,6 +1246,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.11!logging.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#tracking;0.13.11!tracking.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#control;0.13.11!control.jar(src)
-[debug] :: resolution report :: resolve 1101ms :: artifacts dl 45ms
+[debug] :: resolution report :: resolve 236ms :: artifacts dl 50ms
 [debug] 	report for com.preownedkittens#randomproject$sources_2.10;1.0 default produced in /Users/anthonygaro/personal_projects/SbtPlayground/randomProject/target/resolution-cache/reports/com.preownedkittens-randomproject$sources_2.10-default.xml
-[debug] 	resolve done (1101ms resolve - 45ms download)
+[debug] 	resolve done (236ms resolve - 50ms download)

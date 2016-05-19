@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.preownedkittens#randomproject_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.preownedkittens#randomproject_2.10;1.0->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20ac1540[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d963e2b[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.6] org.scala-lang#scala-library;2.10.6[0m
@@ -31,7 +31,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.preownedkittens#randomproject_2.10;1.0->org.scala-lang#scala-library;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.preownedkittens#randomproject_2.10;1.0->org.specs2#specs2_2.10;1.14 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.10;1.14 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@730d2d72[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@785ed040[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2_2.10;1.14[0m
 [0m[[0mdebug[0m] [0m	found org.specs2#specs2_2.10;1.14 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.preownedkittens#randomproject_2.10;1.0->org.specs2#specs2_2.10;1.14 [test->runtime][0m
@@ -262,7 +262,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 78ms :: artifacts dl 4ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 77ms :: artifacts dl 5ms[0m
 [0m[[0mdebug[0m] [0m	report for com.preownedkittens#randomproject_2.10;1.0 compile produced in /Users/anthonygaro/personal_projects/SbtPlayground/randomProject/target/resolution-cache/reports/com.preownedkittens-randomproject_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.preownedkittens#randomproject_2.10;1.0 runtime produced in /Users/anthonygaro/personal_projects/SbtPlayground/randomProject/target/resolution-cache/reports/com.preownedkittens-randomproject_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.preownedkittens#randomproject_2.10;1.0 test produced in /Users/anthonygaro/personal_projects/SbtPlayground/randomProject/target/resolution-cache/reports/com.preownedkittens-randomproject_2.10-test.xml[0m
@@ -276,5 +276,5 @@
 [0m[[0mdebug[0m] [0m	report for com.preownedkittens#randomproject_2.10;1.0 docs produced in /Users/anthonygaro/personal_projects/SbtPlayground/randomProject/target/resolution-cache/reports/com.preownedkittens-randomproject_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.preownedkittens#randomproject_2.10;1.0 pom produced in /Users/anthonygaro/personal_projects/SbtPlayground/randomProject/target/resolution-cache/reports/com.preownedkittens-randomproject_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.preownedkittens#randomproject_2.10;1.0 scala-tool produced in /Users/anthonygaro/personal_projects/SbtPlayground/randomProject/target/resolution-cache/reports/com.preownedkittens-randomproject_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (78ms resolve - 4ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (77ms resolve - 5ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
