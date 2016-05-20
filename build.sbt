@@ -22,6 +22,8 @@ testOptions in Test += Tests.Argument("html") //specs2 generates html reports
 
 libraryDependencies += "junit" % "junit" % "4.11" % "test"
 
+org.scalastyle.sbt.ScalastylePlugin.Settings
+
 /*lazy val common = ( //new sub-project with it's own settings
 		Project("common",file("common")). //relative to the base dir. Sources should be in common/src/
 		settings(
@@ -42,7 +44,16 @@ lazy val website = ( //new sub-project
 )*/
 
 lazy val SbtPlayground = Project("SbtPlayground",file("."))
-	.settings( Defaults.itSettings : _*) //adds integration test
+	.settings( Defaults.itSettings : _*)
+	.settings(scalastyleReport := {
+      val result = org.scalastyle.sbt.PluginKeys.scalastyle.toTask("").value
+      val file = ScalastyleReport.report(target.value / "html-test-report",
+                        "scalastyle-report.html",
+                        (baseDirectory in ThisBuild).value / "project/scalastyle-report.html",
+                        target.value / "scalastyle-result.xml")
+      println("created report " + file.getAbsolutePath)
+      file
+    }) //adds integration test
 	.configs(IntegrationTest) //adds integration test //Default to SBT
 	/*
 		By default, this configuration uses the directory src/it, 
@@ -68,3 +79,6 @@ lazy val randomProject = {
 		libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
 		)
 }
+
+val scalastyleReport = taskKey[File]("runs Scalastyle and creates a report")
+
